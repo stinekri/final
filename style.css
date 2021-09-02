@@ -58,7 +58,7 @@ ol {
   }
   
   h2 {
-    font-size: 2.441rem;
+    font-size: 2.4rem;
     letter-spacing: -0.12rem;
     line-height: 1.2;
   }
@@ -82,7 +82,7 @@ ol {
     }
   }
   
-  /*product*/
+  
   .breadcrumbs {
     list-style-type: none;
     display: flex;
@@ -96,7 +96,7 @@ ol {
     transition: all 0.3s;
     background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 9 14"><path fill="none" stroke="white" d="M.8 12.87l7.5-6-7.5-6"></path></svg>');
     background-repeat: no-repeat;
-    /* url('data:image/svg+xml;utf8,<svg class="svg-arrowRight" viewBox="0 0 9 14"><path fill="none" stroke="#979797" d="M.8 12.87l7.5-6-7.5-6"></path></svg>'); */
+
   }
   .breadcrumbs li:last-child::after {
     background: none;
@@ -134,12 +134,6 @@ ol {
     font-weight: 700;
   }
   
-  /* main {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 800px));
-    gap: 1rem;
-  }   */
-  
   img {
     width: 500px;
     padding-left: 10%;
@@ -163,4 +157,7 @@ ol {
    text-align: center;
    height: 50px;
   }
-  
+
+  html {
+   scroll-behavior: smooth;
+  }
